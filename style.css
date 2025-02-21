@@ -19,3 +19,235 @@
     padding: 1rem;
     box-sizing: border-box;
   }
+
+  #app {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .task-container {
+    background: white;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: var(--primary-dark);
+    font-size: 2rem;
+    margin: 0 0 1.5rem 0;
+    line-height: 1.2;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 100%;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.8rem;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: var(--primary-dark);
+  }
+  
+  .task-item {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    background: white;
+  }
+  
+  .task-item .content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .tag {
+    background-color: #E3F2FD;
+    color: #1976D2;
+    padding: 0.2rem 0.8rem;
+    border-radius: 1rem;
+    font-size: 0.875rem;
+    align-self: flex-start;
+  }
+  
+  .date {
+    color: var(--text-gray);
+    font-size: 0.875rem;
+  }
+  
+  .complete-button {
+    min-width: 6.25rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background: #dbeafe;
+    color: #2563eb;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 0.875rem;
+    margin-left: 1rem;
+  }
+  
+  .complete-button:hover {
+    background: #bfdbfe;
+  }
+  
+  .complete-button.completed {
+    background: #dcfce7;
+    color: #16a34a;
+  }
+  
+  .complete-button.completed:hover {
+    background: #bbf7d0;
+  }
+  
+  .task-item.completed {
+    opacity: 0.7;
+    background: #f8fafc;
+  }
+  
+  .task-item.completed .content {
+    text-decoration: line-through;
+    color: #6b7280;
+}
+  
+  .check-mark {
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all 0.2s ease;
+  }
+  
+  .check-mark.visible {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .stats {
+    margin-top: 2rem;
+    color: var(--text-gray);
+    font-size: 0.875rem;
+    text-align: center;
+  }
+  
+  @media screen and (min-width: 640px) {
+    body {
+      align-items: center;
+      padding: 2rem;
+    }
+  
+    #app {
+      padding: 2rem;
+    }
+  
+    .task-container {
+      padding: 2rem;
+    }
+  
+    h1 {
+      font-size: 2.5rem;
+    }
+  
+    .input-group {
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    #tagInput {
+      max-width: 150px;
+    }
+  
+    #addButton {
+      width: auto;
+      padding: 0.8rem 1.5rem;
+    }
+  
+    .task-item {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    .task-item .content {
+      flex-direction: row;
+      align-items: center;
+      gap: 1rem;
+      flex: 1;
+    }
+  
+    .complete-button {
+      width: auto;
+      min-width: 120px;
+    }
+  
+    .stats {
+      text-align: right;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .task-container {
+      padding: 2.5rem;
+    }
+  
+    #app {
+      max-width: 1000px;
+    }
+  
+    .input-group {
+      gap: 1.5rem;
+    }
+  
+    #tagInput {
+      max-width: 200px;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    #app {
+      padding: 0.5rem;
+    }
+  
+    .task-container {
+      padding: 1rem;
+    }
+  
+    h1 {
+      font-size: 1.75rem;
+    }
+  
+    .task-item {
+      padding: 0.75rem;
+    }
+  }
