@@ -9,3 +9,5 @@ No projeto os requisitos eram:
                                               4) Conseguir alterar o estado de cada uma
                                               
   Práticas de programação - Garantir a legibilidade do código, que todas as variáveis e constantes estejam nomeadas e que funções possuem o princípio de responsabilidade única
+
+Para melhor vizualização do projeto, segue o link do projeto no netlify: https://board-de-tarefas-rid148558.netlify.app/
