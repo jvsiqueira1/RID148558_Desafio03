@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Board de tarefas</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <main id="app">
+      <section class="task-container">
+        <h1>Board de tarefas</h1>
+        <div class="input-group">
+          <input type="text" id="taskInput" placeholder="Nome da tarefa">
+          <input type="text" id="tagInput" placeholder="Etiqueta">
+          <button id="addButton">+</button>
+        </div>
+        <section id="taskList"></section>
+        <footer class="stats" id="stats"></footer>
+      </section>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
