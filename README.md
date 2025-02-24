@@ -12,4 +12,6 @@ No projeto os requisitos eram: <br>
 
 ![Nota Projeto DNC Javascript](https://github.com/user-attachments/assets/8bee1f89-e8a8-45b9-b1f9-d7128e21f205)
 
+<h1>Links</h1>
+
 Para melhor vizualização do projeto, segue o link do projeto no netlify: https://board-de-tarefas-rid148558.netlify.app/
