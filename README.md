@@ -15,7 +15,7 @@
 
 ![Nota Projeto DNC Javascript](https://github.com/user-attachments/assets/8bee1f89-e8a8-45b9-b1f9-d7128e21f205)
 
-<h1>Prints do projeto</h1>
+<h1>Layout do projeto</h1>
 
   Desktop <br><br>
   ![Print Projeto Desktop](https://github.com/user-attachments/assets/1307a6d6-144a-48aa-9912-62bd381c0cce)
