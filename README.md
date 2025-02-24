@@ -3,13 +3,12 @@
   <ul>
     <li>Semântica - Utilizar as tags semânticas do HTML :heavy_check_mark: </li><br>
     <li>Tela Responsiva - Garantir a responsividade da tela tanto no mibile e no desktop seguindo o prototipo do figma :heavy_check_mark: </li><br>
-    <li>
-      Garantir a funcionabilidade dos requisitos: <br>
+    <li>Garantir a funcionabilidade dos requisitos: <br>
                                             <ul>
-                                              <li>1) A lista de tarefas ser carregada ao abrir a tela :heavy_check_mark: </li><br>
-                                              <li>2) Adicionar novas tarefas :heavy_check_mark: </li><br>
-                                              <li>3) Conseguir marcar tarefas como concluidas :heavy_check_mark: </li><br>
-                                              <li>4) Conseguir alterar o estado de cada uma :heavy_check_mark: </li><br>
+                                              <li>A lista de tarefas ser carregada ao abrir a tela :heavy_check_mark: </li><br>
+                                              <li>Adicionar novas tarefas :heavy_check_mark: </li><br>
+                                              <li>Conseguir marcar tarefas como concluidas :heavy_check_mark: </li><br>
+                                              <li>Conseguir alterar o estado de cada uma :heavy_check_mark: </li><br>
                                             </ul>
     </li>
                                         
