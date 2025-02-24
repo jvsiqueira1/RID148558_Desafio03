@@ -1,6 +1,6 @@
 <h1>Projeto final do modulo 3 de javascript da DNC.</h1>
-No projeto os requisitos eram: <br>
-  Semantica - Utilizar as tags semânticas do HTML [x] <br>
+Os requisitos do projeto eram: <br>
+  Semântica - Utilizar as tags semânticas do HTML [x] <br>
   Tela Responsiva - Garantir a responsividade da tela tanto no mibile e no desktop seguindo o prototipo do figma [x] <br>
   Garantir a funcionabilidade dos requisitos: <br>
                                               1) A lista de tarefas ser carregada ao abrir a tela [x] <br>
