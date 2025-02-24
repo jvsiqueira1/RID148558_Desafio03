@@ -18,10 +18,10 @@
 <h1>Prints do projeto</h1>
 <ul>
   <li>Desktop</li>
-    	![Print Projeto Desktop](https://github.com/user-attachments/assets/a3aef705-d386-4641-bdce-8140158b278e)
+  <li>![Print Projeto Desktop](https://github.com/user-attachments/assets/a3aef705-d386-4641-bdce-8140158b278e)</li>
 
   <li>Mobile</li>
-     ![Print Projeto Mobile](https://github.com/user-attachments/assets/76d7b289-92c3-45af-9f30-616d64a11a73)
+  <li>![Print Projeto Mobile](https://github.com/user-attachments/assets/76d7b289-92c3-45af-9f30-616d64a11a73)</li>
 
 </ul>
 <h1>Links</h1>
