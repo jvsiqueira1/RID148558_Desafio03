@@ -15,6 +15,13 @@
 
 ![Nota Projeto DNC Javascript](https://github.com/user-attachments/assets/8bee1f89-e8a8-45b9-b1f9-d7128e21f205)
 
+<h1>Prints do projeto</h1>
+<ul>
+  <li>Desktop</li>
+    	![Print Projeto Desktop](https://github.com/user-attachments/assets/834ab3e4-7de4-46c3-9126-db3233ef7efa)
+  <li>Mobile</li>
+    ![Print Projeto Mobile](https://github.com/user-attachments/assets/7da65c15-f4c8-4969-92f6-8ab3769444b8)
+</ul>
 <h1>Links</h1>
 
 Para melhor vizualização do projeto, segue o link do projeto no netlify: https://board-de-tarefas-rid148558.netlify.app/
