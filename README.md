@@ -17,10 +17,10 @@
 
 <h1>Prints do projeto</h1>
 
-  Desktop <br>
+  Desktop <br><br>
   ![Print Projeto Desktop](https://github.com/user-attachments/assets/1307a6d6-144a-48aa-9912-62bd381c0cce)
 
-  Mobile <br>
+  Mobile <br><br>
   ![Print Projeto Mobile](https://github.com/user-attachments/assets/76d7b289-92c3-45af-9f30-616d64a11a73)
 
 
